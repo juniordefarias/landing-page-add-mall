@@ -8,7 +8,7 @@ function Product(props) {
   return (
     <Container>
       <div className='productImg'>
-        <img src={window.location.origin + `${props.img}`} alt='' />
+        <img src={window.location.origin + window.location.pathname + `${props.img}`} alt='' />
       </div>
       <div className='productData'>
         <p className='description'>{props.data.description}</p>
