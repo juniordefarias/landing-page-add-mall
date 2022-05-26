@@ -23,6 +23,7 @@ export const Container = styled.header`
     background-color: var(--first-color);
     opacity: 0.8;
     backdrop-filter: blur(7px);
+    -ms-backdrop-filter: blur(7px);
     box-shadow: 0px 4px 12px 3px rgba(0, 0, 0, 0.25);
   }
 
@@ -49,7 +50,11 @@ export const Container = styled.header`
     }
   }
 
-  @media screen and (max-width: 350px) {
+  @media screen and (max-width: 376px) {
+    .headerContainer {
+      width: calc(100% - 2rem);
+    }
+
     .headerContainer img {
       height: 24px;
     }

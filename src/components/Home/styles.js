@@ -6,6 +6,8 @@ export const Container = styled.section`
   margin-left: auto;
   margin-right: auto;
 
+  /* border: 10px solid #fff; */
+
   display: grid;
   justify-items: center;
 
@@ -47,6 +49,7 @@ export const Container = styled.section`
   @media screen and (max-width: 376px) {
     & {
       padding: 2rem 0 3rem;
+      width: calc(100% - 2rem);
 
       .homeImg {
         width: 250px;

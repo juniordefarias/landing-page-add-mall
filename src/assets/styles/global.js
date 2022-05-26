@@ -50,7 +50,10 @@ export default createGlobalStyle`
     padding: var(--header-height) 0 0 0;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
-    background: linear-gradient(180deg, #F8283E 32%, rgba(40, 50, 248, 0.9) 95.66%) fixed;
+    background: linear-gradient(to bottom, #F8283E 32%, rgba(40, 50, 248, 0.9) 95.66%) fixed;
+    background-attachment: fixed;
+    /* background-size: auto 120vh; */
+    appearance: none;
   }
 
   h1, h2, h3, p, ul {
@@ -78,4 +81,43 @@ export default createGlobalStyle`
   ::-webkit-scrollbar {
     display: none;
   }
+
+/*     @media screen and (max-height: 668px) {
+      body {
+        background-size: auto 130vh;
+      }
+    }
+
+    @media screen and (max-height: 580px) {
+      body {
+        background-size: auto 150vh;
+      }
+    } */
+
+    /* fixind gradient to iOS devices */
+
+    @media screen and (max-width: 500px) {
+      body {
+        background-size: auto 120vh;
+      }
+    }
+
+    @media screen and (max-width: 415px) {
+      body {
+        background-size: auto 140vh;
+      }
+    }
+
+    @media screen and (max-width: 377px) {
+      body {
+        background-size: auto 150vh;
+      }
+    }
+
+    @media screen and (max-width: 325px) {
+      body {
+        background-size: auto 150vh;
+      }
+    }
+  
 `;

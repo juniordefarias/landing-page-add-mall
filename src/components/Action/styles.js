@@ -36,7 +36,11 @@ export const Container = styled.section`
     }
   }
 
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 376px) {
+    .actionContainer {
+      width: calc(100% - 2rem);
+    }
+
     .actionButtons img {
       height: 42px;
       /* margin-right: 8px; */

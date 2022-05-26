@@ -31,6 +31,14 @@ export const Container = styled.div`
   }
 
   @media screen and (max-width: 376px) {
+    & > *:not(.productList) {
+      margin-left: 1rem; 
+    }
+
+    .productList {
+      padding: 1.875rem 16px;
+    }
+
     h1 {
       font-size: 1.75rem;
     }
