@@ -119,5 +119,4 @@ export default createGlobalStyle`
         background-size: auto 150vh;
       }
     }
-  
 `;

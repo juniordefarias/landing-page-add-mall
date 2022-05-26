@@ -15,6 +15,7 @@ export const Container = styled.div`
     padding: 8px 16px 12px;
 
     .description {
+      color: #000;
       font-size: var(--small-font-size);
       min-height: 45px;
       display: -webkit-box;

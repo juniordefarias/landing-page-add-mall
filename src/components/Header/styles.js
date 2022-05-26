@@ -22,6 +22,7 @@ export const Container = styled.header`
 
     background-color: var(--first-color);
     opacity: 0.8;
+    -webkit-backdrop-filter: blur(7px);
     backdrop-filter: blur(7px);
     -ms-backdrop-filter: blur(7px);
     box-shadow: 0px 4px 12px 3px rgba(0, 0, 0, 0.25);
