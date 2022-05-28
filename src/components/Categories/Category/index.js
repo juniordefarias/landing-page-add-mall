@@ -2,10 +2,7 @@ import { Container } from './styles';
 
 import Product from './Product';
 
-import eletronics from '../../../assets/mocks/eletronics';
-
 function Category(props) {
-  /* console.log(eletronics); */
   return (
     <Container>
       <h1>{props.data.title}</h1>

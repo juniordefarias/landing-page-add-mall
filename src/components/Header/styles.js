@@ -21,10 +21,10 @@ export const Container = styled.header`
     z-index: -1;
 
     background-color: var(--first-color);
-    opacity: 0.8;
-    -webkit-backdrop-filter: blur(7px);
-    backdrop-filter: blur(7px);
-    -ms-backdrop-filter: blur(7px);
+    opacity: 0.9;
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    -ms-backdrop-filter: blur(2px);
     box-shadow: 0px 4px 12px 3px rgba(0, 0, 0, 0.25);
   }
 
