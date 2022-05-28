@@ -5,13 +5,19 @@ import shopButton from '../../../../assets/images/shop-button.svg';
 function Product(props) {
   const userAgent = navigator.userAgent || navigator.vendor || window.opera;
 
+  let pathname = `${window.location.pathname}`;
+
+  if (pathname !== '/www') {
+    pathname = '/www';
+    console.log(pathname)
+  }
+
   if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
     return (
       <a href='https://apps.apple.com/br/app/add-mall/id1561206197?l=en' target='_blank' rel='noopener noreferrer'>
         <Container>
           <div className='productImg'>
-            {/* {console.log(window.location.origin + window.location.pathname + `${props.img}`)} */}
-            <img src={window.location.origin + window.location.pathname + `${props.img}`} alt='' />
+            <img src={window.location.origin + pathname + `${props.img}`} alt='' />
           </div>
           <div className='productData'>
             <p className='description'>{props.data.description}</p>
@@ -31,7 +37,7 @@ function Product(props) {
     <a href='https://play.google.com/store/apps/details?id=com.mystory.baxisite' target='_blank' rel='noopener noreferrer'>
       <Container>
         <div className='productImg'>
-          <img src={window.location.origin + window.location.pathname + `${props.img}`} alt='' />
+        <img src={window.location.origin + pathname + `${props.img}`} alt='' />
         </div>
         <div className='productData'>
           <p className='description'>{props.data.description}</p>
