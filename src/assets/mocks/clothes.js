@@ -22,7 +22,7 @@ export default [
   },
   {
     id: 4,
-    img: '/images/clothes/Bolsa com alça removível.png',
+    img: '/images/clothes/Bolsa com alca removivel.png',
     description: 'Bolsa com alça removível',
     oldPrice: '169,99',
     newPrice: '139,00',

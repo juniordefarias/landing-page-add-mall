@@ -10,7 +10,7 @@ function Product(props) {
       <a href='https://apps.apple.com/br/app/add-mall/id1561206197?l=en' target='_blank' rel='noopener noreferrer'>
         <Container>
           <div className='productImg'>
-            {console.log(window.location.origin + window.location.pathname + `${props.img}`)}
+            {/* {console.log(window.location.origin + window.location.pathname + `${props.img}`)} */}
             <img src={window.location.origin + window.location.pathname + `${props.img}`} alt='' />
           </div>
           <div className='productData'>
