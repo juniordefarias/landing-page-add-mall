@@ -20,12 +20,19 @@ export default [
     oldPrice: '69,99',
     newPrice: '62,99',
   },
-  {
+  /* {
     id: 4,
     img: '/images/clothes/Bolsa com alca removivel.png',
     description: 'Bolsa com alça removível',
     oldPrice: '169,99',
     newPrice: '139,00',
-  }
+  }, */
+  {
+    id: 5,
+    img: '/images/clothes/Bolsa com detalhe de laco.png',
+    description: 'Bolsa com detalhe de laço',
+    oldPrice: '175,56',
+    newPrice: '150,00',
+  },
 ];
 

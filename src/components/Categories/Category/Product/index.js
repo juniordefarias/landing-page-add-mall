@@ -7,8 +7,8 @@ function Product(props) {
 
   let pathname = `${window.location.pathname}`;
 
-  if (pathname !== '/www') {
-    pathname = '/www';
+  if (pathname !== '/') {
+    pathname = '/';
   }
 
   if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {

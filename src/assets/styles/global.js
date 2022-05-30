@@ -81,6 +81,7 @@ export default createGlobalStyle`
   ::-webkit-scrollbar {
     display: none;
   }
+  
 
 /*     @media screen and (max-height: 668px) {
       body {

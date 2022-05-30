@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.section`
-  position: relative;
+  /* position: relative; */
 
   background-color: #fff;
   padding-top: 3.75rem; /* 98px */
@@ -28,7 +28,6 @@ export const Container = styled.section`
     display: flex;
     justify-content: center;
     /* gap: 8px; */
-
     
     img {
       height: 46px;
